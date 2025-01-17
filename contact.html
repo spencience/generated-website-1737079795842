@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact DJ Eddie Platinum - Booking & Inquiries</title>
+    <meta name="description" content="Get in touch with DJ Eddie Platinum for bookings, collaborations, and press inquiries. Available for clubs, festivals, and private events worldwide.">
+    <meta name="keywords" content="DJ Eddie Platinum, booking, contact, music inquiries, event booking, collaboration">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @keyframes vinylSpin {
+            from { transform: rotate(0deg); }
+            to { transform: rotate(360deg); }
+        }
+        .vinyl-spin {
+            animation: vinylSpin 4s linear infinite;
+        }
+        .contact-card {
+            backdrop-filter: blur(10px);
+            background: linear-gradient(145deg, rgba(139, 92, 246, 0.1), rgba(236, 72, 153, 0.1));
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+    </style>
+</head>
+<body class="bg-gradient-to-b from-purple-900 to-black text-white min-h-screen flex flex-col">
+    <header class="bg-black/80 backdrop-blur-sm fixed w-full z-50">
+        <nav class="container mx-auto px-4 py-4">
+            <div class="flex justify-between items-center">
+                <div class="flex items-center space-x-2">
+                    <div class="w-12 h-12 bg-gradient-to-r from-purple-500 to-pink-500 rounded-full vinyl-spin"></div>
+                    <a href="/generated-website-1737079795842/" class="text-2xl font-bold bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">
+                        DJ Eddie Platinum
+                    </a>
+                </div>
+                <div class="hidden md:flex space-x-6">
+                    <a href="/generated-website-1737079795842/tour.html" class="hover:text-purple-400 transition">Tour Dates</a>
+                    <a href="/generated-website-1737079795842/music.html" class="hover:text-purple-400 transition">Music</a>
+                    <a href="/generated-website-1737079795842/merch.html" class="hover:text-purple-400 transition">Merch</a>
+                    <a href="/generated-website-1737079795842/about.html" class="hover:text-purple-400 transition">About</a>
+                    <a href="/generated-website-1737079795842/contact.html" class="hover:text-purple-400 transition">Contact</a>
+                </div>
+                <button class="md:hidden text-2xl">☰</button>
+            </div>
+        </nav>
+    </header>
+
+    <main class="flex-grow container mx-auto px-4 pt-24">
+        <div class="max-w-4xl mx-auto">
+            <h1 class="text-4xl md:text-5xl font-bold mb-8 bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">Get in Touch</h1>
+            
+            <div class="grid md:grid-cols-2 gap-8 mb-12">
+                <div class="contact-card rounded-lg p-6">
+                    <h2 class="text-2xl font-bold mb-4">Booking & Management</h2>
+                    <p class="mb-4">For bookings and professional inquiries:</p>
+                    <ul class="space-y-2">
+                        <li>Email: booking@djeddieplatinum.com</li>
+                        <li>Tel: +1 (323) 555-0123</li>
+                        <li>Management: Platinum Entertainment Group</li>
+                    </ul>
+                </div>
+
+                <div class="contact-card rounded-lg p-6">
+                    <h2 class="text-2xl font-bold mb-4">Press & Media</h2>
+                    <p class="mb-4">For press kits and media inquiries:</p>
+                    <ul class="space-y-2">
+                        <li>Email: press@djeddieplatinum.com</li>
+                        <li>PR Team: media@platinumgroup.com</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="contact-card rounded-lg p-8 mb-12">
+                <h2 class="text-2xl font-bold mb-6">Send a Message</h2>
+                <form action="/generated-website-1737079795842/contact/submit" method="GET" class="space-y-4">
+                    <div class="grid md:grid-cols-2 gap-4">
+                        <div>
+                            <label for="name" class="block mb-2">Name</label>
+                            <input type="text" id="name" name="name" required class="w-full bg-gray-800/50 border border-purple-500/30 rounded px-4 py-2 focus:outline-none focus:ring-2 focus:ring-purple-400">
+                        </div>
+                        <div>
+                            <label for="email" class="block mb-2">Email</label>
+                            <input type="email" id="email" name="email" required class="w-full bg-gray-800/50 border border-purple-500/30 rounded px-4 py-2 focus:outline-none focus:ring-2 focus:ring-purple-400">
+                        </div>
+                    </div>
+                    <div>
+                        <label for="subject" class="block mb-2">Subject</label>
+                        <select id="subject" name="subject" class="w-full bg-gray-800/50 border border-purple-500/30 rounded px-4 py-2 focus:outline-none focus:ring-2 focus:ring-purple-400">
+                            <option value="booking">Booking Inquiry</option>
+                            <option value="press">Press/Media</option>
+                            <option value="collaboration">Collaboration</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="message" class="block mb-2">Message</label>
+                        <textarea id="message" name="message" rows="4" required class="w-full bg-gray-800/50 border border-purple-500/30 rounded px-4 py-2 focus:outline-none focus:ring-2 focus:ring-purple-400"></textarea>
+                    </div>
+                    <button type="submit" class="bg-gradient-to-r from-purple-600 to-pink-600 px-8 py-3 rounded-lg hover:opacity-90 transition">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <footer class="bg-black/80 backdrop-blur-sm mt-12">
+        <div class="container mx-auto px-4 py-8">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Connect</h3>
+                    <div class="flex space-x-4">
+                        <a href="https://soundcloud.com/djeddieplatinum" class="hover:text-purple-400">SoundCloud</a>
+                        <a href="https://instagram.com/djeddieplatinum" class="hover:text-purple-400">Instagram</a>
+                        <a href="https://twitter.com/djeddieplatinum" class="hover:text-purple-400">Twitter</a>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Latest Releases</h3>
+                    <ul class="space-y-2">
+                        <li><a href="/generated-website-1737079795842/music/midnight-vibes.html" class="hover:text-purple-400">Midnight Vibes EP</a></li>
+                        <li><a href="/generated-website-1737079795842/music/platinum-dreams.html" class="hover:text-purple-400">Platinum Dreams</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Newsletter</h3>
+                    <form action="/generated-website-1737079795842/subscribe" method="GET" class="flex">
+                        <input type="email" placeholder="Your email" class="bg-gray-800 px-4 py-2 rounded-l focus:outline-none focus:ring-2 focus:ring-purple-400 flex-grow">
+                        <button type="submit" class="bg-purple-600 px-4 py-2 rounded-r hover:bg-purple-500 transition">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            <div class="mt-8 text-center text-sm text-gray-400">
+                © 2024 DJ Eddie Platinum. All rights reserved.
+            </div>
+        </div>
+    </footer>
+
+    <div class="hidden fixed inset-0 bg-black/95 z-40">
+        <div class="container mx-auto px-4 py-8">
+            <div class="flex flex-col space-y-4 text-center text-xl">
+                <a href="/generated-website-1737079795842/tour.html" class="hover:text-purple-400 transition py-2">Tour Dates</a>
+                <a href="/generated-website-1737079795842/music.html" class="hover:text-purple-400 transition py-2">Music</a>
+                <a href="/generated-website-1737079795842/merch.html" class="hover:text-purple-400 transition py-2">Merch</a>
+                <a href="/generated-website-1737079795842/about.html" class="hover:text-purple-400 transition py-2">About</a>
+                <a href="/generated-website-1737079795842/contact.html" class="hover:text-purple-400 transition py-2">Contact</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
